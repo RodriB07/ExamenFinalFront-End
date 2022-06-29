@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,700;1,500&display=swap');
+
+/*--- ENTREGA ----*/
+* {
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro';
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.boton-get {
+    background-color: #F3603B;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    color: white;
+    margin: 5vh 0vh;
+    padding: 12px 20px;
+}
+
+.escritorio, .coment-escrit {
+    display: none;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 15px;
+}
+
+/*--- Productos ---*/
+.primeraNoticia {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
+.crearProductos {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.crearProductos h1 {
+    color: #232C50;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.crearProductos p {
+    color: #8C8C94;
+    margin: 10px 30px;
+}
+
+/*----- DIFERENCIAS ----*/
+.diferencias {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+    text-align: center;
+}
+
+.diferencias h2 {
+    color: #232851;
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.diferencias article {
+    padding: 20px;
+}
+
+.diferencias p {
+    color: #8C8C94;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+/*--Nosotros--*/
+.titulo {
+    align-items: center;
+    background-color: rgb(248, 211, 211);
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    display: flex;
+}
+
+.nosotros-2 h3 {
+    color: #323851;
+    font-size: 16px;
+    padding: 0px 5px;
+}
+
+.nosotros-2 article span {
+    background-color: #F3603B;
+    border-radius: 50px;
+    border-style: none;
+    color: white;
+    height: 42px;
+    padding: 10px 20px;
+    width: 63px;
+}
+
+.nosotros-2 article p {
+    color: #8C8C94;
+    margin-top: 20px;
+    text-align: left;
+}
+
+/*----- Comentarios ---*/
+.comentarios {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.comentarios h2 {
+    color: #242E53;
+    font-size: 2.0rem;
+    margin-bottom: 1vh;
+}
+
+.comentario-usuario h3 {
+    background-color: #FAFAFA;
+    color: #232C50;
+    padding-top: 80px;
+}
+
+.comentario-usuario p {
+    background-color: #FAFAFA;
+    color: #B3B2B7;
+    font-size: 1.0em;
+    margin-bottom: 3vh;
+    padding: 20px;
+}
+
+.comentario-usuario img {
+    position: relative;
+    top: 70px
+}
+
+input:checked {
+    background-color: rgb(242, 95, 58);
+}
+
+input[type="radio"] {
+    appearance: none;
+    border-radius: 50%;
+    border: 0.07rem solid rgb(242, 95, 58);
+    color: white;
+    height: 0.5rem;
+    margin: 2px;
+    width: 0.5rem;
+}
+
+/*------ Equipo ------*/
+.equipo {
+    align-items: center;
+    background-color: #F3613C;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    padding-top: 20%;
+    text-align: center;
+}
+
+.equipo h2 {
+    color: white;
+    font-size: 2em;
+    padding: 0px 50px;
+}
+
+.equipo a {
+    background-color: white;
+    border-radius: 50px;
+    border-style: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    color: #F3603B;
+    margin-top: 5vh;
+    padding: 15px;
+}
+
+/*------ FOOTER ------*/
+footer {
+    align-items: center;
+    background-color: #1E1E26;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 55vh;
+}
+
+.boton {
+    background-color: #F3603B;
+    border-radius: 50px;
+    border-style: none;
+    color: white;
+    height: 42px;
+    width: 63px;
+}
+
+.correo {
+    border-radius: 50px;
+    border-style: none;
+    height: 44px;
+    margin: 0px 10px;
+    padding: 0px 10px;
+    width: 201px;
+}
+
+.nav-footer {
+    display: flex;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.nav-footer a {
+    color: white;
+    margin-top: 10%;
+    padding: 10px;
+}
+
+.fa-brands {
+    color: white;
+    font-size: 6vw;
+    margin: 10px 15px;
+}
+
+.logo-iconos {
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+}
+
+.logo-footer {
+    margin: 3vh 0vh;
+}
+
+.p-footer {
+    color: #8C8C94;
+    display: flex;
+    font-size: 13px;
+    margin: 20px 0px;
+    order: -1;
+}
+
+
+/*---- MEDIA QUERIES ----*/
+@media (min-width : 1440px) {
+
+    .icono-hamburguesa, .boton-radio {
+        display: none;
+    }
+
+    header {
+        justify-content: space-around;
+    }
+
+    .escritorio {
+        display: block;
+        margin: 0px;
+    }
+
+    header nav ul li {
+        display: inline-block;
+        padding: 10px;
+    }
+
+    header nav a {
+        color: #242E52;
+        font-size: 13px;
+    }
+
+    header nav a:hover {
+        color: gray;
+    }
+
+    .boton-get:hover,
+    .boton:hover {
+        background-color: #d6806a;
+    }
+
+    /*------ Productos ------*/
+    .primeraNoticia {
+        flex-direction: row;
+        margin: 0vw 3vw;
+    }
+
+    .primeraNoticia img {
+        padding: 50px;
+        width: 50%;
+    }
+
+    .crearProductos {
+        align-items: flex-start;
+        justify-content: center;
+        padding: 5vw 4vw;
+        text-align: start;
+    }
+
+    .crearProductos h1 {
+        font-size: 4rem;
+    }
+
+    .crearProductos p {
+        font-size: 1.5rem;
+        margin: 30px 0px;
+        width: 95%;
+    }
+
+    /*---- Diferencias ---*/
+    .diferencias {
+        flex-direction: row;
+        margin: 4vw 5vw;
+    }
+
+    .diferencias p {
+        margin-bottom: 3vh;
+        padding: 0px;
+        text-align: left;
+        width: 75%;
+    }
+
+    .diferencias h2 {
+        font-size: 2.5rem;
+        margin-bottom: 3vh;
+        padding: 0px;
+        text-align: left;
+    }
+
+    .nosotros-2 {
+        flex-direction: column;
+        margin-left: 10vw;
+    }
+
+    /*------ Nosotros----*/
+    .titulo {
+        align-items: center;
+        background-color: white;
+    }
+
+    .titulo h3 {
+        color: #232C50;
+        padding: 0px 20px;
+    }
+
+    .nosotros-2 article p {
+        left: 5.5vw;
+        margin-top: 10px;
+        position: relative;
+        width: 95%;
+    }
+
+    /*---- Comentarios----*/
+    .comentarios h2 {
+        font-size: 3rem;
+        margin-top: 5vh;
+    }
+
+    .usuarios {
+        display: flex;
+    }
+
+    .articulos {
+        margin: 20px;
+    }
+
+    .coment-escrit {
+        display: inline;
+    }
+
+    /*----- Equipo ----*/
+    .equipo {
+        flex-direction: row;
+        height: 30vh;
+        justify-content: space-between;
+        padding: 0px 200px;
+    }
+
+    .equipo h2 {
+        font-size: 50px;
+        width: 40vw;
+    }
+
+    .equipo a:hover {
+        color: rgb(228, 171, 157);
+    }
+
+    /*--- Footer ----*/
+    footer {
+        background-color: #1E1E26;
+        flex-direction: row;
+        height: 48vh;
+        justify-content: space-around;
+    }
+
+    .logo-iconos {
+        flex-direction: column;
+        width: 25%;
+    }
+
+    .logo-footer {
+        margin-bottom: 120px;
+    }
+
+    .fa-brands {
+        color: white;
+        font-size: 1.5vw;
+        margin: 10px 15px;
+    }
+
+    .fa-brands:hover {
+        color: #F3603B;
+    }
+
+    .nav-footer ul li {
+        padding: 5px;
+        width: 8vw;
+    }
+
+    .nav-footer .list {
+        padding: 0vw 6vw;
+    }
+
+    .nav-footer a:hover {
+        color: #F3603B;
+    }
+
+    .p-footer {
+        margin-left: 70vw;
+        margin-top: 30vh;
+        order: 0;
+        position: absolute;
+    }
+
+}
