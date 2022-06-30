@@ -91,19 +91,9 @@ header {
 }
 
 .nosotros-2 h3 {
-    color: #323851;
+    color: #242E53;
     font-size: 15px;
     padding: 0px 10px;
-}
-
-.nosotros-2 article span {
-    background-color: #F3603B;
-    border-radius: 50px;
-    border-style: none;
-    color: white;
-    height: 42px;
-    padding: 10px 20px;
-    width: 63px;
 }
 
 .nosotros-2 article p {
@@ -200,6 +190,7 @@ footer {
     border-radius: 50px;
     border-style: none;
     color: white;
+    padding: 10px 20px;
     height: 42px;
     width: 63px;
 }
@@ -286,8 +277,9 @@ header nav a:hover {
 }
 
 .boton-get:hover,
-.boton:hover {
+form button:hover {
     background-color: #d6806a;
+    cursor: pointer;
 }
 
     /*------ Productos ------*/
@@ -340,7 +332,6 @@ header nav a:hover {
 
 /*------ Nosotros----*/
 .titulo {
-    align-items: center;
     background-color: white;
 }
 
