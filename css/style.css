@@ -338,12 +338,7 @@ header nav a:hover {
     text-align: left;
 }
 
-.nosotros-2 {
-    flex-direction: column;
-    margin-left: 100px;
-}
-
-    /*------ Nosotros----*/
+/*------ Nosotros----*/
 .titulo {
     align-items: center;
     background-color: white;
@@ -354,11 +349,16 @@ header nav a:hover {
     padding: 0px 20px;
 }
 
+.nosotros-2 {
+    flex-direction: column;
+    margin-left: 100px;
+}
+
 .nosotros-2 article p {
     left: 80px;
     margin-top: 10px;
     position: relative;
-    width: 95%;
+    width: 70%;
 }
 
     /*---- Comentarios----*/
@@ -446,5 +446,6 @@ footer {
     order: 0;
     position: absolute;
 }
+
 
 }
